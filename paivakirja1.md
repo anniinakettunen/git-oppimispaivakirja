@@ -1,12 +1,24 @@
 # Oppimispäiväkirja: Paikallinen git
 
-__Mikä osion tehtävissä oli vaikeaa ja mikä helppoa? Mikä auttoi minua oppimaan? Miten selvitin esteet?__
+__Mikä osion tehtävissä  1-3 oli vaikeaa ja mikä helppoa? Mikä auttoi minua oppimaan? Miten selvitin esteet?__
 
 Vaikeinta tässä tehtävässä oli Vim-editorista poistuminen commit-viestin kirjoittamisen jälkeen. Sen sen eri tilat (insert, komentotila) ja poistumiskomennot kuten :wq ja :q! tuntuivat aluksi sekavilta. Kirjoitin ne myös usein väärin. 
 
 Tehtävät olivat melko selkeitä ja vaikeuksia tuli vasta Vim-editorissa. Opin uutta, että add voi tehdä myös yksittäiselle tiedostolle. Ennen teina aina git add . eli lisäsin kaiken muutoksen. 
 
 Opin myös miten poistetaan sekä että tallentamattomille tiedostoille ei käy mitään. 
+
+# Oppimispäiväkirja: Tehtävä 4 – Ominaisuushaarat ja tyylit
+
+**Mikä osion tehtävissä oli vaikeaa ja mikä helppoa? Mikä auttoi minua oppimaan? Miten selvitin esteet?**
+
+Tehtävässä 4 opin käyttämään feature branches Gitissä. .    
+
+Ominaisuushaaran luominen auttoi oppimaan, miten kehitystyö voidaan eristää päähaarasta ja testata muutoksia erikseen ennen yhdistämistä. Haarojen vaihtaminen ja sivun uudelleenlataus selaimessa auttoi näkemään muutokset käytännössä. Asia oli jo tuttua Ohjelmistoprojekti 1 -kurssilta eli käytännössä kertausta.   
+
+**Miten selvitin esteet:**  
+- käytin usein git status -komentoa
+- ei ollut paljon esteitä
 
 ## Osiossa käyttämäni Git-komennot
 
@@ -137,4 +149,6 @@ hint: Waiting for your editor to close the file...
 | git commit -m "viesti"   | Tallentaa muutokset Git-historiaan annetulla viestillä.         |
 | git log                  | Näyttää commit-historian aikajärjestyksessä.                           |
 | git push                 | Lähettää paikalliset commitit GitHubiin tai muuhun etärepositorioon.  |
+| git merge                | Yhdistää esim. tyylit haaran muutokset main -haaraan  |
+| git checkout main        | Vaihtaa päähaaraa.  |
 
